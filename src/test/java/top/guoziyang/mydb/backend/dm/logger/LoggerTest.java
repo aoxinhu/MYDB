@@ -4,6 +4,8 @@ import java.io.File;
 
 import org.junit.Test;
 
+import top.aoxinhu.mydb.backend.dm.logger.Logger;
+
 public class LoggerTest {
     @Test
     public void testLogger() {

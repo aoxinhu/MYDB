@@ -11,9 +11,10 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import org.junit.Test;
 
-import top.guoziyang.mydb.backend.dm.page.Page;
-import top.guoziyang.mydb.backend.utils.Panic;
-import top.guoziyang.mydb.backend.utils.RandomUtil;
+import top.aoxinhu.mydb.backend.dm.page.Page;
+import top.aoxinhu.mydb.backend.dm.pageCache.PageCache;
+import top.aoxinhu.mydb.backend.utils.Panic;
+import top.aoxinhu.mydb.backend.utils.RandomUtil;
 
 public class PageCacheTest {
 

@@ -1,5 +1,7 @@
 package top.guoziyang.mydb.backend.common;
 
+import top.aoxinhu.mydb.backend.common.AbstractCache;
+
 public class MockCache extends AbstractCache<Long> {
 
     public MockCache() {

@@ -4,15 +4,16 @@ import java.util.Arrays;
 
 import com.google.gson.Gson;
 
-import org.junit.Test;
+import top.aoxinhu.mydb.backend.parser.Parser;
+import top.aoxinhu.mydb.backend.parser.statement.Begin;
+import top.aoxinhu.mydb.backend.parser.statement.Create;
+import top.aoxinhu.mydb.backend.parser.statement.Delete;
+import top.aoxinhu.mydb.backend.parser.statement.Insert;
+import top.aoxinhu.mydb.backend.parser.statement.Select;
+import top.aoxinhu.mydb.backend.parser.statement.Show;
+import top.aoxinhu.mydb.backend.parser.statement.Update;
 
-import top.guoziyang.mydb.backend.parser.statement.Begin;
-import top.guoziyang.mydb.backend.parser.statement.Create;
-import top.guoziyang.mydb.backend.parser.statement.Delete;
-import top.guoziyang.mydb.backend.parser.statement.Insert;
-import top.guoziyang.mydb.backend.parser.statement.Select;
-import top.guoziyang.mydb.backend.parser.statement.Show;
-import top.guoziyang.mydb.backend.parser.statement.Update;
+import org.junit.Test;
 
 public class ParserTest {
     @Test

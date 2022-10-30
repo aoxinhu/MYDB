@@ -6,7 +6,8 @@ import java.util.concurrent.locks.Lock;
 
 import org.junit.Test;
 
-import top.guoziyang.mydb.backend.utils.Panic;
+import top.aoxinhu.mydb.backend.utils.Panic;
+import top.aoxinhu.mydb.backend.vm.LockTable;
 
 public class LockTableTest {
 

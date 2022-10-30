@@ -10,6 +10,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import org.junit.Test;
 
+import top.aoxinhu.mydb.backend.tm.TransactionManager;
+
 public class TransactionManagerTest {
 
     static Random random = new SecureRandom();
